@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+  <!--spawn a teleop node-->
+  <node name="teleop_node" pkg="mapworld_sg" type="teleop" respawn="false" output="screen" />
+</launch>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+<!--launch rviz-->
+  <node name="rviz" pkg="rviz" type="rviz" respawn="false" args="-d /home/workspace/catkin_ws/src/mapworld_sg/launch/robot_slam.rviz"/>
+  
+</launch>
